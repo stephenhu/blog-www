@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  import sidebar
+  div.blue.s.box
+    h1.h5 De-mystifying DBus and Systemd
+    small 10m ago
+    br
+    br
+    a.btn.btn-success tech
+    a.btn.btn-success software
+  div.blue.s.box
+    h1.h5 Raspberry Pi Controller
+    img[src="https://www.raspberrypi.org/pagekit-assets/media/images/4913a547895720ff30c1.svg"]
+    br
+    br
+    small 4d ago
+  div.blue.s.box
+    img[src="https://purecss.io/img/layouts/gallery@2x.jpg"]
+  div.blue.s.box
+    h1.h5 Freedom to do it 
+    small 26d ago
+  div.blue.s.box
+    h1.h5 Stressed, stressed, and more stressed 
+    small 26d ago
+  div.blue.s.box
+    h1.h5 Let's play soccer
+    small 26d ago
+

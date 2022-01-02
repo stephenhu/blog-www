@@ -1,0 +1,93 @@
+/* stephenhu3.css */
+
+html, body {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+}
+
+a, a:visited, a:hover, a:link {
+  text-decoration: none;
+}
+
+/* custom classes */
+
+.box {
+  float: left;
+  padding: 20px;
+  margin: 1px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-style: outset;
+  border: 1px outset #0059ae;
+  opacity: .8;
+  max-width: 500px;
+}
+
+.box:hover {
+  opacity: 1;
+}
+
+.xl {
+  height: auto;
+  width: 100%;
+  overflow: visible;
+}
+
+.l {
+  height: 300px;
+  width: 600px;
+}
+
+.m {
+  height: 300px;
+  width: 500px;
+}
+
+.s {
+  height: 300px;
+  width: 300px;
+}
+
+.xs {
+  height: 200px;
+  width: 300px;
+}
+
+/* bootstrap overrides */
+
+/* colors */
+
+.green {
+  color: #ffffff;
+  background: -webkit-linear-gradient( top, #008822, #00c700 );
+  background: -moz-linear-gradient( top, #008822, #00c700 );
+}
+
+.green a {
+  color: #ffffff;
+}
+
+.green a:hover {
+  color: #000000;
+  font-weight: 500;
+}
+
+.blue {
+  color: #ffffff;
+  background: -webkit-linear-gradient( top, #005994, #007dd1 );
+  background: -moz-linear-gradient( top, #005994, #007dd1 );
+}
+
+.blue a {
+  color: #ffffff;
+ }
+ 
+ .blue a:hover {
+   color: #0096fa;
+   font-weight: 500;
+ }
