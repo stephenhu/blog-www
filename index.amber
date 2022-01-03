@@ -7,8 +7,8 @@ block content
     small 10m ago
     br
     br
-    a.btn.btn-success tech
-    a.btn.btn-success software
+    a.badge.bg-success tech
+    a.badge.bg-success software
   div.blue.s.box
     h1.h5 Raspberry Pi Controller
     img[src="https://www.raspberrypi.org/pagekit-assets/media/images/4913a547895720ff30c1.svg"]
@@ -16,7 +16,7 @@ block content
     br
     small 4d ago
   div.blue.s.box
-    img[src="https://purecss.io/img/layouts/gallery@2x.jpg"]
+    img[src="https://github.com/stephenhu/stephenhu.github.com/blob/master/images/photo.jpg"][width="250px"]
   div.blue.s.box
     h1.h5 Freedom to do it 
     small 26d ago

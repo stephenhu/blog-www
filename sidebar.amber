@@ -1,14 +1,16 @@
-div.green.m.box
+div.green.l.box
   h1.display-1 stephen hu
   h1.h6 innovation, creativity, uniqueness
-  h1.small copyright &copy; 2022
-  a[href="mailto:stephen@madsportslab.com"]
+  h6.small.mb-4 copyright &copy; 2022
+  a.me-3[href="mailto:stephen@madsportslab.com"]
     span.fa.fa-envelope.fa-2x
-  a[href="https://twitter.com"]
+  a.me-3[href="https://twitter.com"]
     span.fa.fa-twitter.fa-2x
-  a[href="https://linkedin.com/in/hustephen"]
+  a.me-3[href="https://linkedin.com/in/hustephen"]
     span.fa.fa-linkedin.fa-2x
-  a[href="https://github.com/stephenhu"]
+  a.me-3[href="https://github.com/stephenhu"]
     span.fa.fa-github.fa-2x
-  a[href="https://facebook.com/stephenhu"]
+  a.me-3[href="https://facebook.com/stephenhu"]
     span.fa.fa-facebook.fa-2x
+  a.me-3[href="https://wechat.com"]
+    span.fa.fa-wechat.fa-2x
