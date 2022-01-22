@@ -2,6 +2,8 @@ extends layout
 
 block content
   import sidebar
+  import main
+  import page
   div.blue.m.box
     h1.h5 De-mystifying DBus and Systemd
     p DBus is considered a core IPC framework used by some of the most well known software today.  Linux uses this for sharing state information across various user level processes and system.  What if this starts to get too freaking wordy?  do things start to drop off the face of the earth?
