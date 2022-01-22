@@ -1,0 +1,8 @@
+div.d-none[id="main"]
+  each $article in Master
+    div.blue.m.box
+      a[href="#" + $article.ID]
+      h1.h5 #{$article.Title}
+      div.mt-3
+        small.pull-right #{$article.Creation}
+  

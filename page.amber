@@ -1,0 +1,4 @@
+div.d-none[id="page"]
+  each $article in Master
+    div.blue.xl.box[id=$article.ID]
+      #{unescaped($article.Contents)}
