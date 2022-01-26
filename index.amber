@@ -39,6 +39,3 @@ block content
   div.blue.s.box
     h1.h5 Let's play soccer
     small 26d ago
-  script
-    pageInit();
-
