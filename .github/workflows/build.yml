@@ -32,9 +32,9 @@ jobs:
           git config --local user.name "github-actions"
           git commit -m "Update page" -a
       -name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
 
 
