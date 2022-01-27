@@ -47,6 +47,7 @@ jobs:
           pwd
       - name: Commit updated file
         run: |
+          cd www
           git config --local user.email "github-actions@users.noreply.github.com"
           git config --local user.name "github-actions"
           git add index.html
