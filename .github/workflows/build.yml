@@ -36,9 +36,8 @@ jobs:
       - name: checkout destination
         uses: actions/checkout@v2
         with:
-          repository: stephenhu/blog-www
-          token: ${{ secrets.GH_PAT }}
-          path: blog-www
+          repository: stephenhu/stephenhu.github.com
+          path: www
       - name: copy index.html
         run: |
           cp index.html blog-www
