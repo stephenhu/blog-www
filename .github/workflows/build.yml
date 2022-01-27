@@ -38,7 +38,7 @@ jobs:
         with:
           repository: stephenhu/stephenhu.github.com
           path: www
-          token: ${{ github.token }}
+          token: ${{ secrets.TOKEN_GITHUB }}
       - name: copy index.html
         run: |
           cp index.html www
