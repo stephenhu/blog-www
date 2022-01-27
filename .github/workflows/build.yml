@@ -40,10 +40,10 @@ jobs:
           path: www
       - name: copy index.html
         run: |
-          cp index.html blog-www
+          cp index.html www
       - name: debug info
         run: |
-          ls -la
+          ls -la www
           pwd
       - name: Commit updated file
         run: |
