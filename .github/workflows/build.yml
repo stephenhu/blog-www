@@ -36,8 +36,9 @@ jobs:
       - name: checkout destination
         uses: actions/checkout@v2
         with:
-          repository: stephenhu/stephenhu.github.com@main
+          repository: stephenhu/stephenhu.github.io
           path: www
+          ref: main
           token: ${{ secrets.TOKEN_GITHUB }}
       - name: copy index.html
         run: |
