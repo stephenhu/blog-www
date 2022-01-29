@@ -1,8 +1,9 @@
 div.d-none[id="main"]
   each $article in Master
-    div.blue.m.box
-      a[href="#" + $article.ID]
+    a.blue.m.box[id=$article.Creation][href="#" + $article.ID]
       h1.h5 #{$article.Title}
-      div.mt-3
-        small.pull-right #{$article.Creation}
+      div
+        small.link-info[id="xdate" + $article.Creation] #{$article.Creation}
+      div.overflow-hidden.mt-2.mb-1
+        #{$article.Summary}
   

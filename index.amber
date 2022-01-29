@@ -4,38 +4,3 @@ block content
   import sidebar
   import main
   import page
-  div.blue.m.box
-    h1.h5 De-mystifying DBus and Systemd
-    p DBus is considered a core IPC framework used by some of the most well known software today.  Linux uses this for sharing state information across various user level processes and system.  What if this starts to get too freaking wordy?  do things start to drop off the face of the earth?
-    div.mt-3
-      a.badge.bg-success tech
-      a.badge.bg-success software
-      small.pull-right 10m ago
-  div.blue.m.box
-    h1.h5 Raspberry Pi Controller
-    img[src="https://www.raspberrypi.org/pagekit-assets/media/images/4913a547895720ff30c1.svg"]
-    br
-    br
-    div.mt-auto
-      a.badge.bg-success tech
-      a.badge.bg-success software
-      small.pull-right 10m ago
-  div.blue.m.box
-    h1.h5 Some title about surfing
-    p Here are some words about the article in a summary fashion.
-    img[src="https://tse2-mm.cn.bing.net/th/id/OIP-C.fEM3yf2hSVr7nDyh-HHbQwHaE8?pid=ImgDet&rs=1"][width="150px"]
-  div.red.m.box
-    h1.h5 Freedom to do it 
-    small 26d ago
-  div.blue.m.box
-    h1.h5 The metaverse
-    small 26d ago
-  div.slate.s.box
-    h1.h5 Let's play soccer
-    small 26d ago
-  div.purple.s.box
-    h1.h5 Let's play soccer
-    small 26d ago
-  div.blue.s.box
-    h1.h5 Let's play soccer
-    small 26d ago

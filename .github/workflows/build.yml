@@ -43,6 +43,8 @@ jobs:
       - name: copy index.html
         run: |
           cp index.html www
+          cp css/stephenhu3.css www/css/stephenhu3.css
+          cp js/stephenhu.js www/js/stephenhu.js
       - name: debug info
         run: |
           ls -la www
