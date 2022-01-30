@@ -23,16 +23,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: checkout source
         uses: actions/checkout@v2
-      - name: debug info
-        run: |
-          ls -la
-          pwd
       - name: build
         uses: stephenhu/static-action@v1
-      - name: debug info
-        run: |
-          ls -la
-          pwd
       - name: checkout destination
         uses: actions/checkout@v2
         with:
@@ -45,10 +37,6 @@ jobs:
           cp index.html www
           cp css/stephenhu3.css www/css/stephenhu3.css
           cp js/stephenhu.js www/js/stephenhu.js
-      - name: debug info
-        run: |
-          ls -la www
-          pwd
       - name: Commit updated file
         run: |
           cd www
