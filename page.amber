@@ -1,4 +1,4 @@
 div.d-none.pull-left[id="page"]
   each $article in Master
-    div.blue.xl.box.d-none[id=$article.ID]
+    div.slate.opacity-75.box.xl.d-none[id=$article.ID]
       #{unescaped($article.Contents)}
