@@ -32,7 +32,7 @@ jobs:
           path: www
           ref: main
           token: ${{ secrets.TOKEN_GITHUB }}
-      - name: copy index.html
+      - name: copy static files
         run: |
           cp index.html www
           cp css/stephenhu3.css www/css/stephenhu3.css
