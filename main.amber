@@ -6,6 +6,6 @@ div.d-none[id="main"]
         small.link-info[id="xdate" + $article.Creation] #{$article.Creation}
       div.overflow-hidden.mt-2.mb-1
         if $article.Image != ""
-          img.img-fluid.img-thumbnail[src=$article.Image]
+          img.img-fluid[src=$article.Image]
         #{$article.Summary}
   
