@@ -16,7 +16,7 @@ div.green.l.box.d-block[id="main-menu"]
       span.fa.fa-facebook.fa-2x
     a.me-4[href="weixin://dl/chat?hu183cm"]
       span.fa.fa-wechat.fa-2x
-nav.navbar.navbar-expand-md.slate.opacity-50.d-none[id="page-menu"]
+nav.navbar.navbar-expand-md.blue.opacity-75.d-none[id="page-menu"]
   div.container-fluid
     a.navbar-brand.text-light[href="#"] stephenhu
       small.navbar-text &copy; 2022
