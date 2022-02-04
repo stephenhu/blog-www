@@ -1,9 +1,9 @@
 div.d-none[id="main"]
   each $article in Master
-    a.blue.m.box[id=$article.Creation][href="#" + $article.ID]
+    a.blue.m.box[id=$article.Timestamp][href="#" + $article.ID]
       h1.h5 #{$article.Title}
       div
-        small.link-info[id="xdate" + $article.Creation] #{$article.Creation}
+        small.link-info #{$article.Creation}
       div.overflow-hidden.mt-2.mb-1
         if $article.Image != ""
           img.img-fluid[src=$article.Image]
