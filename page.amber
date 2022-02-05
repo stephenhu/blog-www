@@ -1,4 +1,5 @@
-div.d-none.pull-left[id="page"]
+div.d-none.pull-left.mb-5.pb-5[id="page"]
   each $article in Master
     div.slate.opacity-75.box.xl.d-none.fs-2[id=$article.ID]
       #{unescaped($article.Contents)}
+      input[type="hidden"][id="xdata:" + $article.ID][value=$article.Creation + "$" + $article.Title]    

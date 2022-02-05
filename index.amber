@@ -4,3 +4,4 @@ block content
   import sidebar
   import main
   import page
+  import pagebar

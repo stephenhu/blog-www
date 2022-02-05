@@ -8,4 +8,3 @@ div.d-none[id="main"]
         if $article.Image != ""
           img.img-fluid[src=$article.Image]
         #{$article.Summary}
-  
