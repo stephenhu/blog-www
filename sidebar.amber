@@ -1,4 +1,4 @@
-div.green.l.box.d-block[id="main-menu"]
+div.l.box.d-block[id="main-menu"]
   a[href="#"]
     h1.display-1 stephen hu
     h1.h6.mt-3 innovation, creativity, uniqueness
