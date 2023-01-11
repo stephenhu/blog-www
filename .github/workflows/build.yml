@@ -22,28 +22,15 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: checkout source
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: build
-        uses: stephenhu/static-action@v1
-      - name: checkout destination
-        uses: actions/checkout@v2
-        with:
-          repository: stephenhu/stephenhu.github.io
-          path: www
-          ref: main
-          token: ${{ secrets.TOKEN_GITHUB }}
-      - name: copy static files
-        run: |
-          cp index.html www
-          cp css/stephenhu3.css www/css/stephenhu3.css
-          cp js/stephenhu.js www/js/stephenhu.js
+      - name: build index
+        uses: stephenhu/static-action@v2
       - name: Commit updated file
         run: |
-          cd www
           git config --local user.email "github-actions@users.noreply.github.com"
           git config --local user.name "github-actions"
-          git add index.html
-          git commit -m "Update page" -a
+          git add meta.json
+          git commit -m "Update index" -a
           git push
